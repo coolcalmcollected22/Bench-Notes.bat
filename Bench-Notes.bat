@@ -38,8 +38,8 @@ ECHO.>> notes.txt
 GOTO NOTE
 
 :INFO
-SET /P REQ=Enter Requestor:
-SET /P REQID=Enter Request ID:  
+SET /P REQ=Enter Requestor: 
+SET /P REQID=Enter Request ID: 
 SET /P CID=Enter Case ID: 
 SET /P EXN=Enter Examiner Name: 
 ECHO Requestor: %REQ% >> notes.txt
