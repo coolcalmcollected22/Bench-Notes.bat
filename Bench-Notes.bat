@@ -29,7 +29,7 @@ IF "%M%"=="5" (GOTO EOF) else (GOTO MENU)
 SET /P CN=Type a note and press ENTER ("q" to quit, "m" for menu): 
 IF /i "%CN%"=="q" GOTO THEEND
 IF /i "%CN%"=="m" GOTO MENU
-SET isod=%date:~10,4%-%date:~7,2%-%date:~4,2%
+SET isod=%date:~10,4%-%date:~4,2%-%date:~7,2%
 SET isot=%time:~0,2%:%time:~3,2%:%time:~6,2%
 SET isot=%isot: =0%
 ECHO.
